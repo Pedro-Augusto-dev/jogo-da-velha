@@ -63,3 +63,47 @@ function check() {
     return;
   }
 }
+
+function dia(){
+
+    var clean = document.getElementById("clean");
+    clean.style.display = "none"
+    
+    var black = document.getElementById("noite");
+    black.style.display = "block";
+
+    var darken = document.getElementById("body");
+    darken.style.backgroundColor = "rgb(56, 54, 54)";
+    
+    var color = document.getElementById("scrit")
+    color.style.color = "white";
+
+    var color2 = document.getElementById("scrit2");
+    color2.style.color = "white";
+
+    var back = document.getElementById("backColor")
+    back.style.background = "white";
+    back.style.border = "1px solid white";  
+}
+function night(){
+
+  var black = document.getElementById("noite");
+  black.style.display = "none";
+  
+  var clean = document.getElementById("clean");
+    clean.style.display = "block"
+
+  var darken = document.getElementById("body");
+  darken.style.backgroundColor = "rgb(239, 235, 228)"; 
+
+  var color = document.getElementById("scrit")
+  color.style.color = "black";
+
+  var color2 = document.getElementById("scrit2");
+  color2.style.color = "black";
+
+  var back = document.getElementById("backColor")
+    back.style.background = "black";
+    back.style.border = "1px solid black";  
+}
+

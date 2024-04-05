@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f7f7f7;
+    background:  rgb(239, 235, 228);
   }
   
   main {
@@ -28,6 +28,7 @@
     height: 3px;
     background: black;
     margin-bottom: 10px;
+    border: 1px solid black;
   }
   
   .game {
@@ -41,5 +42,58 @@
     margin: 5px;
     cursor: pointer;
     font-size: 50px;
-    background: #f7f7f7;
+    background: #ccc9c9;
   }
+
+.day{
+
+    position: absolute;
+    top: 50px;
+    left: 270px;
+
+    padding: 0px;
+    border-radius:  20px ;
+    border: 1px solid transparent;
+    width: 100px;
+    height: 40px;
+
+    font-weight: 800;
+    font-size: 17px;
+    cursor: pointer;
+    z-index: 9;
+    background-color: rgb(48, 48, 48);
+    color: white;
+
+} .day:hover {
+  transition: 1s;
+    background-color: rgb(90, 88, 88);
+    color: white;
+    border: white;
+}
+.Btnclose{
+
+    position: absolute;
+    top: 50px;
+    left: 270px;
+
+    padding: 0px;
+    border-radius:  20px ;
+    border:none;
+    width: 100px;
+    height: 40px;
+
+    font-weight: 800;
+    font-size: 17px;
+    cursor: pointer;
+    display: none;
+    background-color: rgb(239, 235, 228);
+    color: black;
+    
+
+} 
+.Btnclose:hover {
+
+  background-color: rgb(201, 201, 201);
+  border: white;
+
+}

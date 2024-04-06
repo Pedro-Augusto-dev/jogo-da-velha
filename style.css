@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: "Nunito", sans-serif;
   }
   
   body {
@@ -46,7 +46,7 @@
   }
 
 .day{
-
+  font-family: "Nunito", sans-serif;
     position: absolute;
     top: 50px;
     left: 270px;
@@ -75,7 +75,7 @@
     position: absolute;
     top: 50px;
     left: 270px;
-
+    font-family: "Nunito", sans-serif;
     padding: 0px;
     border-radius:  20px ;
     border:none;
